@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <p class="troubleshooter"></p>
+    <div class="digitalClockContainer">
+        <div class="digitalClock">
+            <div class="hoursContainer">
+                <div class="number" data-displayH>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d1"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d2"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d3"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d4"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d5"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d6"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d7"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d8"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d9"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d10"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d11"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d12"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d13"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d14"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d15"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="number" data-displayHH>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d1"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d2"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d3"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d4"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d5"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d6"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d7"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d8"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d9"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d10"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d11"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d12"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d13"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d14"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d15"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="numberDivider">
+                <div>
+                    <div class="dotContainer">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="dotContainer">
+                        <div class="dot active"></div>
+                    </div>
+                    <div class="dotContainer">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="dotContainer">
+                        <div class="dot active"></div>
+                    </div>
+                    <div class="dotContainer">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="minutesContainer">
+                <div class="number" data-displayM>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d1"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d2"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d3"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d4"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d5"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d6"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d7"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d8"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d9"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d10"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d11"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d12"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d13"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d14"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d15"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="number" data-displayMM>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d1"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d2"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d3"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d4"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d5"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d6"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d7"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d8"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d9"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d10"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d11"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d12"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d13"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d14"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d15"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="numberDivider">
+                <div>
+                    <div class="dotContainer">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="dotContainer">
+                        <div class="dot active"></div>
+                    </div>
+                    <div class="dotContainer">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="dotContainer">
+                        <div class="dot active"></div>
+                    </div>
+                    <div class="dotContainer">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="secondsContainer">
+                <div class="number" data-displayS>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d1"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d2"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d3"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d4"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d5"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d6"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d7"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d8"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d9"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d10"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d11"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d12"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d13"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d14"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d15"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="number" data-displaySS>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d1"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d2"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d3"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d4"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d5"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d6"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d7"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d8"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d9"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d10"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dotContainer">
+                            <div class="dot d11"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d12"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d13"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d14"></div>
+                        </div>
+                        <div class="dotContainer">
+                            <div class="dot d15"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
