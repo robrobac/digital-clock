@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+}
+
+.digitalClockContainer {
+  padding: 100px;
+  background-color: rgb(20, 20, 20);
+}
+.digitalClockContainer .digitalClock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hoursContainer,
+.minutesContainer,
+.secondsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.number {
+  padding: 1.5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.numberDivider {
+  padding: 0 5px 0 5px;
+}
+
+.dotContainer {
+  height: 15px;
+  width: 15px;
+  margin: 1px;
+  padding: 1.1px;
+  background-color: rgb(35, 35, 35);
+}
+
+.active {
+  background-color: red;
+  box-shadow: 0px 0px 15px -1.5px red;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}/*# sourceMappingURL=style.css.map */
